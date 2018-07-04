@@ -15,7 +15,7 @@ buildscript {
 allprojects {
     String osName = System.getProperty("os.name").toLowerCase();
     if (osName.contains("windows")) {
-        buildDir = "C:/tmp/${rootProject.name}/${project.name}"
+        buildDir = "C:/Users/t40003/Documents/CS/Dev/Android/tmp/${rootProject.name}/${project.name}"
     }
     repositories {
         jcenter()
